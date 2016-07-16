@@ -1,6 +1,8 @@
 'lib/mpesa/**/*.rb'
 
 --title 'MPesa Ruby Gem'
+--markup=markdown
+--markup-provider=redcarpet
 --protected
 --no-private
 
