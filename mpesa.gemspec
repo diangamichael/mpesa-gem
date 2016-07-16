@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.files         = `git ls-files`.split($/).reject { |f| f.match(%r{^(spec)/}) }
   spec.bindir        = 'bin'
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
   spec.add_development_dependency 'bundler', '~> 1.11'
