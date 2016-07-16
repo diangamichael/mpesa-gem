@@ -5,7 +5,7 @@ require 'mpesa/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "mpesa"
-  spec.version       = Mpesa::VERSION
+  spec.version       = MPesa::VERSION
   spec.authors       = ["King'ori Maina"]
   spec.email         = ["j@kingori.co"]
 
