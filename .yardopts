@@ -1,0 +1,11 @@
+'lib/mpesa/**/*.rb'
+
+--title 'MPesa Ruby Gem'
+--protected
+--no-private
+
+-
+CHANGELOG.md
+CODE_OF_CONDUCT.md
+LICENSE.md
+README.md
