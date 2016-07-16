@@ -1,6 +1,8 @@
 MPesa Ruby Gem
 ==============
 
+[![Build Status](https://travis-ci.org/itsmrwave/mpesa-gem.svg?branch=master)](https://travis-ci.org/itsmrwave/mpesa-gem)
+
 Basically it's a gem that makes it easy to integrate your app with the new
 [M-PESA platform][mpesa-api] dubbed G2 (for M-PESA 2nd generation platform). It
 Handles all the SOAP stuff abstracting any direct interaction with the API
