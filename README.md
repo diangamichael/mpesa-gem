@@ -24,9 +24,7 @@ Or install it yourself as:
 
     $ gem install mpesa
 
-## Usage
 
-TODO: Write usage instructions here
 
 ## Development
 
