@@ -12,11 +12,11 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'http://itsmrwave.github.io/mpesa-gem'
   spec.license       = 'MIT'
   spec.description   = 'Make authenticated MPESA G2 API calls without the fuss!'
-  spec.summary       = <<-EOF
+  spec.summary       = <<-SUMMARY
     Make authenticated MPESA G2 API calls without the fuss! Handles all the SOAP
     stuff abstracting any direct interaction with the API endpoints so that you
     can focus on what matters. Building awesome!
-  EOF
+  SUMMARY
 
   spec.files         = `git ls-files`.split($/).reject { |f| f.match(%r{^(spec)/}) }
   spec.bindir        = 'bin'
