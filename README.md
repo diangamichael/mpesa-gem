@@ -8,17 +8,17 @@ matters. _Building awesome_.
 The gem [should be up on RubyGems.org][rubygems-mpesa], it's [accompanying API reference
 here][rubydoc-mpesa], the [CHANGELOG here][changelog] and [all the releases here][releases].
 
-## Installation
+
+Installation
+------------
 
 Add this line to your application's Gemfile:
 
-```ruby
-gem 'mpesa'
-```
+    gem 'mpesa'
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 Or install it yourself as:
 
