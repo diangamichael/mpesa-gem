@@ -1,12 +1,14 @@
 MPesa Ruby Gem
 ==============
 
-Basically it's a gem that makes it easy to integrate your app with the [new M-PESA platform dubbed G2][mpesa-api] (for M-PESA 2nd generation platform). It Handles all the SOAP stuff abstracting
-any direct interaction with the API endpoints so that you can focus on what
-matters. _Building awesome_.
+Basically it's a gem that makes it easy to integrate your app with the new
+[M-PESA platform dubbed G2][mpesa-api] (for M-PESA 2nd generation platform). It
+Handles all the SOAP stuff abstracting any direct interaction with the API
+endpoints so that you can focus on what matters. _Building awesome_.
 
-The gem [should be up on RubyGems.org][rubygems-mpesa], it's [accompanying API reference
-here][rubydoc-mpesa], the [CHANGELOG here][changelog] and [all the releases here][releases].
+The gem [should be up on RubyGems.org][rubygems-mpesa], it's [accompanying API
+reference here][rubydoc-mpesa], the [CHANGELOG here][changelog] and [all the
+releases here][releases].
 
 
 Installation
