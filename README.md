@@ -27,6 +27,15 @@ Or install it yourself as:
     $ gem install mpesa
 
 
+Issues
+------
+
+[Bug reports][issues] and [pull requests][pull-requests] are welcome on GitHub
+at [github.com/itsmrwave/mpesa-gem][repositories]. This project is intended to
+be a safe, welcoming space for collaboration, and [contributors][contributors]
+are expected to adhere to the [Contributor Code of Conduct][code-of-conduct].
+
+
 Development
 -----------
 
@@ -58,9 +67,15 @@ anything they want as long as they provide attribution and waive liability. You
 can [learn more about it here][mit-license].
 
 [changelog]: https://raw.githubusercontent.com/itsmrwave/mpesa-gem/master/CHANGELOG.md
+[code-of-conduct]: https://raw.githubusercontent.com/itsmrwave/mpesa-gem/master/CODE_OF_CONDUCT.md
 [contributing]: https://raw.githubusercontent.com/itsmrwave/mpesa-gem/master/CONTRIBUTING.md
+[contributors]: https://github.com/itsmrwave/mpesa-gem/graphs/contributors
+[issue-new]: https://github.com/itsmrwave/mpesa-gem/issues/new
+[issues]: https://github.com/itsmrwave/mpesa-gem/issues
 [mit-license]: http://choosealicense.com/licenses/mit
 [mpesa-api]: http://www.safaricom.co.ke/business/corporate/m-pesa-payments-services/m-pesa-api
+[pull-requests]: https://github.com/itsmrwave/mpesa-gem/pulls
 [releases]: https://github.com/itsmrwave/mpesa-gem/releases
+[repositories]: https://github.com/itsmrwave/mpesa-gem
 [rubydoc-mpesa]: http://rubydoc.info/gems/mpesa
 [rubygems-mpesa]: http://rubygems.org/gems/mpesa
