@@ -39,13 +39,13 @@ are expected to adhere to the [Contributor Code of Conduct][code-of-conduct].
 Development
 -----------
 
-After checking out the repo, to install this gem onto your local machine:
+After checking out the repo, run this to set up your local machine:
 
-    $ bundle install
+    $ bin/setup
 
 To get an interactive prompt that will allow you to experiment:
 
-    $ bundle console
+    $ bin/console
 
 See [recommended contributing process][contributing].
 
