@@ -58,6 +58,6 @@ can [learn more about it here][mit-license].
 [changelog]: https://raw.githubusercontent.com/itsmrwave/mpesa-gem/master/CHANGELOG.md
 [mit-license]: http://choosealicense.com/licenses/mit
 [mpesa-api]: http://www.safaricom.co.ke/business/corporate/m-pesa-payments-services/m-pesa-api
-[releases]: https://github.com/itsmrwave/pesapal-gem/releases
+[releases]: https://github.com/itsmrwave/mpesa-gem/releases
 [rubydoc-mpesa]: http://rubydoc.info/gems/mpesa
 [rubygems-mpesa]: http://rubygems.org/gems/mpesa
