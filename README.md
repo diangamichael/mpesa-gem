@@ -34,3 +34,12 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/mpesa. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
+License
+-------
+
+[Job King'ori Maina](http://kingori.co/) © 2016. The MIT License bundled therein
+is a permissive license that is short and to the point. It lets people do
+anything they want as long as they provide attribution and waive liability. You
+can [learn more about it here][mit-license].
+
+[mit-license]: http://choosealicense.com/licenses/mit/

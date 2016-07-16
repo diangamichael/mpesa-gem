@@ -12,6 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = 'Make authenticated MPESA G2 API calls without the fuss!'
   spec.summary       = 'Make authenticated MPESA G2 API calls without the fuss! Handles all the SOAP stuff abstracting any direct interaction with the API endpoints so that you can focus on what matters. Building awesome.'
   spec.homepage      = 'http://itsmrwave.github.io/mpesa-gem'
+  spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
