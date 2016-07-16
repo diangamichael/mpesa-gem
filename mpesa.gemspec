@@ -10,9 +10,13 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Job King'ori Maina"]
   spec.email         = ['j@kingori.co']
   spec.description   = 'Make authenticated MPESA G2 API calls without the fuss!'
-  spec.summary       = 'Make authenticated MPESA G2 API calls without the fuss! Handles all the SOAP stuff abstracting any direct interaction with the API endpoints so that you can focus on what matters. Building awesome.'
   spec.homepage      = 'http://itsmrwave.github.io/mpesa-gem'
   spec.license       = 'MIT'
+  spec.summary       = <<-EOF
+    Make authenticated MPESA G2 API calls without the fuss! Handles all the SOAP
+    stuff abstracting any direct interaction with the API endpoints so that you
+    can focus on what matters. Building awesome!
+  EOF
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = 'exe'
