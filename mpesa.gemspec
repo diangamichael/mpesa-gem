@@ -31,6 +31,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_development_dependency 'rubocop', '~> 0.41.2'
+  spec.add_development_dependency 'webmock', '~> 2.1'
 
   spec.add_runtime_dependency 'savon', '~> 2.11', '>= 2.11.1'
 end
