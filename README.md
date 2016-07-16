@@ -38,6 +38,8 @@ To get an interactive prompt that will allow you to experiment:
 
     $ bundle console
 
+See [recommended contributing process][contributing].
+
 
 Testing
 -------
@@ -56,6 +58,7 @@ anything they want as long as they provide attribution and waive liability. You
 can [learn more about it here][mit-license].
 
 [changelog]: https://raw.githubusercontent.com/itsmrwave/mpesa-gem/master/CHANGELOG.md
+[contributing]: https://raw.githubusercontent.com/itsmrwave/mpesa-gem/master/CONTRIBUTING.md
 [mit-license]: http://choosealicense.com/licenses/mit
 [mpesa-api]: http://www.safaricom.co.ke/business/corporate/m-pesa-payments-services/m-pesa-api
 [releases]: https://github.com/itsmrwave/mpesa-gem/releases
