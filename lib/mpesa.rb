@@ -1,3 +1,3 @@
-require "mpesa/version"
 require 'savon'
 
+require 'mpesa/version'
