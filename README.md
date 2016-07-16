@@ -71,6 +71,10 @@ To run tests, call:
 
     $ bundle exec rspec spec
 
+To check if the style guide has been violated:
+
+    $ bundle exec rubocop
+
 
 License
 -------
