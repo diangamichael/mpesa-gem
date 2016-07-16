@@ -52,6 +52,18 @@ To get an interactive prompt that will allow you to experiment:
 See [recommended contributing process][contributing].
 
 
+Documentation
+-------------
+
+You may start up a local documentation server at `http://0.0.0.0:8808` to
+preview the gem API documentation locally. Just call:
+
+    $ bundle exec yard server --reload
+
+The result should be similar as to what will eventually be available as [the
+RubyDoc API reference][rubydoc-mpesa].
+
+
 Testing
 -------
 
