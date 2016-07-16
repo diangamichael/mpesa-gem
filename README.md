@@ -1,8 +1,12 @@
-# MPesa
+MPesa Ruby Gem
+==============
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/mpesa`. To experiment with that code, run `bin/console` for an interactive prompt.
+Basically it's a gem that makes it easy to integrate your app with the [new M-PESA platform dubbed G2][mpesa-api] (for M-PESA 2nd generation platform). It Handles all the SOAP stuff abstracting
+any direct interaction with the API endpoints so that you can focus on what
+matters. _Building awesome_.
 
-TODO: Delete this and the text above, and describe your gem
+The gem [should be up on RubyGems.org][rubygems-mpesa], it's [accompanying API reference
+here][rubydoc-mpesa], the [CHANGELOG here][changelog] and [all the releases here][releases].
 
 ## Installation
 
@@ -50,4 +54,9 @@ is a permissive license that is short and to the point. It lets people do
 anything they want as long as they provide attribution and waive liability. You
 can [learn more about it here][mit-license].
 
-[mit-license]: http://choosealicense.com/licenses/mit/
+[changelog]: https://raw.githubusercontent.com/itsmrwave/mpesa-gem/master/CHANGELOG.md
+[mit-license]: http://choosealicense.com/licenses/mit
+[mpesa-api]: http://www.safaricom.co.ke/business/corporate/m-pesa-payments-services/m-pesa-api
+[releases]: https://github.com/itsmrwave/pesapal-gem/releases
+[rubydoc-mpesa]: http://rubydoc.info/gems/mpesa
+[rubygems-mpesa]: http://rubygems.org/gems/mpesa
