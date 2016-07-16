@@ -2,7 +2,7 @@ MPesa Ruby Gem
 ==============
 
 Basically it's a gem that makes it easy to integrate your app with the new
-[M-PESA platform dubbed G2][mpesa-api] (for M-PESA 2nd generation platform). It
+[M-PESA platform][mpesa-api] dubbed G2 (for M-PESA 2nd generation platform). It
 Handles all the SOAP stuff abstracting any direct interaction with the API
 endpoints so that you can focus on what matters. _Building awesome_.
 
@@ -42,7 +42,7 @@ To get an interactive prompt that will allow you to experiment:
 Testing
 -------
 
-To run tests, call;
+To run tests, call:
 
     $ bundle exec rspec spec
 
