@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.date          = Time.new.getutc.strftime('%Y-%m-%d')
   spec.authors       = ["Job King'ori Maina"]
   spec.email         = ['j@kingori.co']
-  spec.description   = 'Make authenticated MPESA G2 API calls without the fuss!'
   spec.homepage      = 'http://itsmrwave.github.io/mpesa-gem'
   spec.license       = 'MIT'
+  spec.description   = 'Make authenticated MPESA G2 API calls without the fuss!'
   spec.summary       = <<-EOF
     Make authenticated MPESA G2 API calls without the fuss! Handles all the SOAP
     stuff abstracting any direct interaction with the API endpoints so that you
