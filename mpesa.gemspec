@@ -18,8 +18,8 @@ Gem::Specification.new do |spec|
     can focus on what matters. Building awesome!
   EOF
 
-  spec.bindir        = 'exe'
   spec.files         = `git ls-files`.split($/).reject { |f| f.match(%r{^(spec)/}) }
+  spec.bindir        = 'bin'
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
