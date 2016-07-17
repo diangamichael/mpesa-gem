@@ -12,10 +12,10 @@ module MPesa
       describe '.new' do
         it 'returns client instance' do
           client = MPesa::C2B::Client.new(
-            merchant_id: '123-456',
-            passkey: 'sekret',
-            callback_url: 'http://example.com/payments/mpesa',
-            callback_method: 'POST'
+            merchant_id: Faker::Lorem.characters(16),
+            passkey: Faker::Lorem.characters(8),
+            callback_url: Faker::Internet.url('example.com'),
+            callback_method: Faker::Lorem.characters(4)
           )
           expect(client).to be_an_instance_of(MPesa::C2B::Client)
         end
