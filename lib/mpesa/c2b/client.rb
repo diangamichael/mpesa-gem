@@ -68,18 +68,6 @@ module MPesa
         end
       end
 
-      # Generate base headers used as authentication and validation parameters.
-      #
-      # @return [Hash]
-      def request_headers
-        timestamp = Time.now.to_i.to_s
-        {
-          'MERCHANT_ID' => @merchant_id,
-          'PASSWORD' => password(timestamp),
-          'TIMESTAMP' => timestamp
-        }
-      end
-
       # Generate password for use with authenticating with SAG.
       #
       # @return [String]
@@ -114,6 +102,18 @@ module MPesa
         }
         body['ENC_PARAMS'] = Base64.encode64(data.to_s) unless data.nil?
         body
+      end
+
+      # Generate base headers used as authentication and validation parameters.
+      #
+      # @return [Hash]
+      def request_headers
+        timestamp = Time.now.to_i.to_s
+        {
+          'MERCHANT_ID' => @merchant_id,
+          'PASSWORD' => password(timestamp),
+          'TIMESTAMP' => timestamp
+        }
       end
     end
   end
