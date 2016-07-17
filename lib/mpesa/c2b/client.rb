@@ -59,7 +59,7 @@ module MPesa
 
       # Call SOAP operation.
       #
-      # @return [Object]
+      # @return [Savon::Response]
       def call(method, headers, body)
         operation = OPERATION_MAPPING[method].to_sym
         @client.call(operation) do |locals|
