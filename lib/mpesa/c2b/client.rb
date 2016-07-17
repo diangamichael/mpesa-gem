@@ -5,6 +5,7 @@ module MPesa
       # Creates a new instance of {MPesa::C2B::Client}.
       def initialize
         @client = Savon.client do
+          soap_version 1
           env_namespace :soapenv
           wsdl "#{File.dirname(__FILE__)}/wsdl.xml"
         end
