@@ -1,5 +1,6 @@
 module MPesa
   module C2B
+    # Response handler for {MPesa::C2B::Client} requests.
     class Response
       # Creates a new instance of {MPesa::C2B::Response}.
       #
