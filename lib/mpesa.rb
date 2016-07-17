@@ -4,8 +4,6 @@ require 'mpesa/c2b'
 require 'mpesa/version'
 
 module MPesa
-  private
-
   # Get the absolute path of the gem root.
   #
   # @return [String]
