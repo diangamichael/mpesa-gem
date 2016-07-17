@@ -1,6 +1,11 @@
 Changelog
 =========
 
+v0.1.0
+------
+
+* Add C2B process checkout request and response handling.
+
 v0.0.0
 ------
 
