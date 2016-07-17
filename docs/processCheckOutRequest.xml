@@ -1,0 +1,66 @@
+<!-- DEFAULT -->
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="tns:ns" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Header>
+    <MERCHANT_ID>abcdefghijklmnopqrstuvwxyz</MERCHANT_ID>
+    <PASSWORD>sekret</PASSWORD>
+    <TIMESTAMP>2321321323</TIMESTAMP>
+  </env:Header>
+  <env:Body>
+    <tns:processCheckOutRequest>
+      <MERCHANT_TRANSACTION_ID>911-000</MERCHANT_TRANSACTION_ID>
+      <REFERENCE_ID>1112254500</REFERENCE_ID>
+      <AMOUNT>54</AMOUNT>
+      <MSISDN>2547204871865</MSISDN>
+      <CALL_BACK_URL>http://172.21.20.215:8080/test</CALL_BACK_URL>
+      <CALL_BACK_METHOD>POST</CALL_BACK_METHOD>
+      <ENC_PARAMS>ezpleGFtcGxlPT4zfQ==\n</ENC_PARAMS>
+    </tns:processCheckOutRequest>
+  </env:Body>
+</env:Envelope>
+
+<!-- MPESA -->
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="tns:ns">
+  <soapenv:Header>
+    <tns:CheckOutHeader>
+      <MERCHANT_ID>123-456</MERCHANT_ID>
+      <PASSWORD>sekret</PASSWORD>
+      <TIMESTAMP>2321321323</TIMESTAMP>
+    </tns:CheckOutHeader>
+  </soapenv:Header>
+  <soapenv:Body>
+    <tns:processCheckOutRequest>
+      <MERCHANT_TRANSACTION_ID>TRANS-123/05</MERCHANT_TRANSACTION_ID>
+      <REFERENCE_ID>1112254500</REFERENCE_ID>
+      <AMOUNT>12345.56</AMOUNT>
+      <MSISDN>254711222333</MSISDN>
+      <CALL_BACK_URL>http://example.com/payments/mpesa</CALL_BACK_URL>
+      <CALL_BACK_METHOD>POST</CALL_BACK_METHOD>
+      <ENC_PARAMS>ezpleGFtcGxlPT4zfQ==\n</ENC_PARAMS>
+    </tns:processCheckOutRequest>
+  </soapenv:Body>
+</soapenv:Envelope>
+
+<!-- FINAL -->
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="tns:ns" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soapenv:Header>
+    <tns:CheckOutHeader>
+      <MERCHANT_ID>123-456</MERCHANT_ID>
+      <PASSWORD>sekret</PASSWORD>
+      <TIMESTAMP>2321321323</TIMESTAMP>
+    </tns:CheckOutHeader>
+  </soapenv:Header>
+  <soapenv:Body>
+    <tns:processCheckOutRequest>
+      <MERCHANT_TRANSACTION_ID>TRANS-123/05</MERCHANT_TRANSACTION_ID>
+      <REFERENCE_ID>1112254500</REFERENCE_ID>
+      <AMOUNT>12345.56</AMOUNT>
+      <MSISDN>254711222333</MSISDN>
+      <CALL_BACK_URL>http://example.com/payments/mpesa</CALL_BACK_URL>
+      <CALL_BACK_METHOD>POST</CALL_BACK_METHOD>
+      <ENC_PARAMS>ezpleGFtcGxlPT4zfQ==\n</ENC_PARAMS>
+    </tns:processCheckOutRequest>
+  </soapenv:Body>
+</soapenv:Envelope>
