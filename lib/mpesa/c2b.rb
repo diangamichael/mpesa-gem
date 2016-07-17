@@ -1,4 +1,5 @@
 require 'mpesa/c2b/client'
+require 'mpesa/c2b/response'
 
 module MPesa
   # The overall scope of the C2B Web service is to provide primitives for
