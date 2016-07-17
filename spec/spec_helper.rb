@@ -5,6 +5,7 @@ Coveralls.wear!
 
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 
+require 'faker'
 require 'mpesa'
 require 'webmock/rspec'
 

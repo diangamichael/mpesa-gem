@@ -1,4 +1,4 @@
-'lib/mpesa/**/*.rb'
+'lib/**/*.rb'
 
 --title 'MPesa Ruby Gem'
 --markup=markdown

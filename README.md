@@ -49,7 +49,11 @@ To get an interactive prompt that will allow you to experiment:
 
     $ bin/console
 
-See [recommended contributing process][contributing].
+For learning how to read a WSDL document, read the [Beginner's Guide by Thomas
+Bayer](http://predic8.com/wsdl-reading.htm). It's a good idea to know what
+you're working with and this might really help you debug certain problems.
+
+The contributing flow/process I'd recommend [can be found here][contributing].
 
 
 Documentation
