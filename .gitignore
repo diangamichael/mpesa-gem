@@ -1,9 +1,15 @@
+## Bundler ##
 /.bundle/
-/.yardoc
-/Gemfile.lock
-/_yardoc/
+/vendor/bundle/
+
+## Coveralls ##
 /coverage/
-/doc/
-/pkg/
-/spec/reports/
+
+## Gem ##
+/log/
 /tmp/
+Gemfile.lock
+*.gem
+
+## Yard ##
+/.yardoc/
