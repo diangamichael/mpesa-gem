@@ -186,7 +186,7 @@
   </wsdl:binding>
   <wsdl:service name="lnmo_checkout_Service">
     <wsdl:port binding="tns:LNMO_binding" name="lnmo_checkout">
-      <soap:address location="lnmo_checkout_server.php"/>
+      <soap:address location="https://safaricom.co.ke/mpesa_online/lnmo_checkout_server.php?wsdl"/>
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>
