@@ -49,7 +49,7 @@ To get an interactive prompt that will allow you to experiment:
 
     $ bin/console
 
-See [recommended contributing process][contributing].
+The contributing flow/process I'd recommend [can be found here][contributing].
 
 
 Documentation
