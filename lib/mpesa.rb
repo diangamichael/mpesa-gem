@@ -7,7 +7,7 @@ module MPesa
   # Get the absolute path of the gem root.
   #
   # @return [String]
-  def self.root
+  def self.gem_root
     File.dirname __dir__
   end
 end

@@ -28,13 +28,13 @@ module MPesa
         end
 
         let(:checkout_response_success) do
-          file_path = File.join(MPesa.root, 'spec', 'support', 'files', 'checkout-response-success.xml')
+          file_path = File.join(MPesa.gem_root, 'spec', 'support', 'files', 'checkout-response-success.xml')
           file = File.new file_path.to_s
           file.read
         end
 
         let(:checkout_response_failure) do
-          file_path = File.join(MPesa.root, 'spec', 'support', 'files', 'checkout-response-failure.xml')
+          file_path = File.join(MPesa.gem_root, 'spec', 'support', 'files', 'checkout-response-failure.xml')
           file = File.new file_path.to_s
           file.read
         end

@@ -25,7 +25,7 @@ module MPesa
         @client = Savon.client do
           soap_version 1
           env_namespace :soapenv
-          wsdl File.join(::MPesa.root, 'lib', 'mpesa', 'c2b', 'wsdl.xml').to_s
+          wsdl File.join(::MPesa.gem_root, 'lib', 'mpesa', 'c2b', 'wsdl.xml').to_s
         end
       end
 
