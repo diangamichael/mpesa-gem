@@ -45,11 +45,12 @@ module MPesa
       # @param transaction_id [String] unique transaction identifier (respective
       #     to the merchant).
       #
-      # @return [Object]
+      # @return [MPesa::C2B::Response]
       def checkout(transaction_id:, amount:, mobile_number:, reference_id:, data: {})
-        headers = payment_request_headers
-        body    = payment_request_body(transaction_id, amount, mobile_number, reference_id, data)
-        call __method__, headers, body
+        headers  = payment_request_headers
+        body     = payment_request_body(transaction_id, amount, mobile_number, reference_id, data)
+        response = call __method__, headers, body
+        Response.new response
       end
 
       private
