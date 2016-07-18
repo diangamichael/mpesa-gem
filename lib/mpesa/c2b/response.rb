@@ -1,6 +1,9 @@
 module MPesa
   module C2B
     # Response handler for {MPesa::C2B::Client} requests.
+    #
+    # This class is used by {MPesa::C2B::Client} internally to process request
+    # responses and is not intended to be used in isolation.
     class Response
       # Creates a new instance of {MPesa::C2B::Response}.
       #
