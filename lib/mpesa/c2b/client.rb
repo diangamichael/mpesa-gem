@@ -4,6 +4,15 @@ module MPesa
     class Client
       # Creates a new instance of {MPesa::C2B::Client}.
       #
+      # Example:
+      #
+      #     client = MPesa::C2B::Client.new(
+      #       merchant_id: '123-456',
+      #       passkey: 'sekret',
+      #       callback_url: 'http://example.com/payments/mpesa',
+      #       callback_method: 'POST'
+      #     )
+      #
       # @param merchant_id: [String] The merchant's unique transaction
       #     identifier.
       #
@@ -30,6 +39,22 @@ module MPesa
       end
 
       # Request the SAG to start the C2B process to complete the MPesa payment.
+      #
+      # Example:
+      #
+      #     transaction_details = {
+      #       transaction_id: 'TRANS-123/05',
+      #       amount: 12_345.56,
+      #       mobile_number: '254711222333',
+      #       reference_id: '1112254500',
+      #       data: { example_1: 'data 1', example_2: 'data 2', example_3: 'data 3' }
+      #     }
+      #
+      #     response = client.checkout transaction_details
+      #
+      #     puts response.code # => '00'
+      #     puts response.success # => true
+      #     puts response.transaction_id # => 'cce3d32e0159c1e62a9ec45b67676200'
       #
       # @param amount: [Float] value of the transaction.
       #
