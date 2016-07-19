@@ -1,5 +1,5 @@
-MPesa Ruby Gem
-==============
+M-Pesa Ruby Gem
+===============
 
 [![Gem Version](https://badge.fury.io/rb/mpesa.svg)](https://badge.fury.io/rb/mpesa) [![Build Status](https://travis-ci.org/itsmrwave/mpesa-gem.svg?branch=master)](https://travis-ci.org/itsmrwave/mpesa-gem) [![Coverage Status](https://coveralls.io/repos/github/itsmrwave/mpesa-gem/badge.svg)](https://coveralls.io/github/itsmrwave/mpesa-gem)
 

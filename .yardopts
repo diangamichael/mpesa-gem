@@ -1,6 +1,6 @@
 'lib/**/*.rb'
 
---title 'MPesa Ruby Gem'
+--title 'M-Pesa Ruby Gem'
 --markup=markdown
 --markup-provider=redcarpet
 --protected

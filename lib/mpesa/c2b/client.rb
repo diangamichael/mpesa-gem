@@ -38,7 +38,7 @@ module MPesa
         end
       end
 
-      # Request the SAG to start the C2B process to complete the MPesa payment.
+      # Request the SAG to start the C2B process to complete the M-Pesa payment.
       #
       # Example:
       #
